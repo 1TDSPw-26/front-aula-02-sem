@@ -1,0 +1,39 @@
+.cabecalho{
+     height: 10vh;
+     width: 100vw;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+.cabecalho_li{
+    display: inline-block;
+    margin: 1%;
+}
+
+.cabecalho__li__a{
+    display: inline-block;
+    text-align: center;
+    width: 10vw;
+    background-color: antiquewhite;
+    padding:10%;
+    border-radius: 10%;
+}
+.cabecalho__li__a:hover {
+    background-color: black;
+    color: aliceblue;
+}
